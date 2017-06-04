@@ -1,0 +1,106 @@
+.ty-grid-list__item .product_colors{
+	display: block;
+	width: 90%;
+	text-align: center;
+	float: left;
+	clear: both;
+	height: 30px;
+	margin: 0 5%;
+}
+.ty-grid-list__item .product_colors ul{
+	margin: 0;
+	display: inline-block;
+}
+.ty-grid-list__item .product_colors ul li{
+	display: inline-block;
+	min-width: 10px;
+	height: 13px;
+	padding: 0;
+	margin: 0;
+}
+.ty-grid-list__item .product_colors ul li > span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.ty-grid-list__item .product_colors ul li > span > span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	float: left;
+	border: 1px solid #999;
+	border-radius: 6px;
+}
+.ty-product-filters__wrapper .ty-product-filters{
+	margin-left: 0px;
+}
+.ty-product-filters__wrapper .ty-product-filters__switch{
+	padding: 10px 0px;
+}
+.ty-product-filters li.filter-color-image-item{
+	float: left;
+	width: 21px;
+	height: 21px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+.ty-product-filters li.filter-color-image-item:last-child{
+	margin-bottom: 20px;
+}
+.ty-product-filters li.filter-color-image-item .filter-color-image-container{
+	padding-left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.ty-product-filters .filter-color-image-item .filter-color-image-container:hover{
+	text-decoration: none;
+}
+.ty-product-filters li.filter-color-image-item .filter-color-image-container.filter-color, .ty-product-filters li.filter-color-image-item .filter-color-image-container.filter-image{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.ty-product-filters li.filter-color-image-item .filter-color-image-container.filter-image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+.ty-product-filters li.filter-color-image-item .filter-color-image-container .ty-filter-icon{
+	position: static;
+	border: 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}
+.ty-product-filters li.filter-color-image-item .filter-color-image-container .ty-filter-icon i{
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	font-size: 12px;
+	margin: 4px 0px 0px 0px;
+	padding: 0;
+	position: static;
+	width: auto;
+	height: auto;
+}
+.ty-product-filters .ty-product-filters__item-more{
+	width: 100%;
+	clear: both;
+}
+.ty-product-filters__tools{
+	float: left;
+	width: 100%;
+}
+.ty-product-filters__wrapper .ty-product-filters__reset_filter{
+	display: block;
+	clear: both;
+	width: 100%;
+}
+.ty-product-filters__wrapper .ty-product-filters__reset_filter a{
+	font-size: 11px;
+}

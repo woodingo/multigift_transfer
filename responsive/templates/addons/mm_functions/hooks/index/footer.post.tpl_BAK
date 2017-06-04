@@ -1,0 +1,42 @@
+{* Shop- and languagespecific JavaScript code. Note: Surround your script tags with smarty's literal tag. *}
+{if $runtime.company_id && $smarty.const.CART_LANGUAGE}
+	{if $runtime.company_id == "33"} {* MultiGift.com *}
+		{if $smarty.const.CART_LANGUAGE == "nl"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{elseif $smarty.const.CART_LANGUAGE == "en"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{elseif $smarty.const.CART_LANGUAGE == "fr"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{elseif $smarty.const.CART_LANGUAGE == "de"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{/if}
+		{* Of vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "39"} {* MultiGift.be *}
+		{if $smarty.const.CART_LANGUAGE == "nl"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{elseif $smarty.const.CART_LANGUAGE == "fr"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{else}
+			{* Vervang deze regel met de taalspecifieke JavaScript code voor de overige talen *}
+		{/if}
+		{* Of vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "20"} {* Spaarpotten.nl *}
+		{if $smarty.const.CART_LANGUAGE == "nl"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{elseif $smarty.const.CART_LANGUAGE == "en"}
+			{* Vervang deze regel met de taalspecifieke JavaScript code *}
+		{/if}
+	{elseif $runtime.company_id == "38"} {* MultiGift.nl *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "35"} {* GeenStress.nl *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "36"} {* MultiGift.co.uk *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "37"} {* MaxiTrading.nl *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "40"} {* Relatiegeschenken.eu *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{elseif $runtime.company_id == "41"} {* Stressballen.nl *}
+		{* Vervang deze regel met de NIET taalspecifieke JavaScript code *}
+	{/if}
+{/if}

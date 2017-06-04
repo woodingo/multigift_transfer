@@ -1,0 +1,385 @@
+.ty-product-block__wrapper .ty-product-block__img-wrapper{
+	margin-right: 43px;
+}
+.ty-product-block__left .product-list-field.ty-control-group{
+	margin-bottom: 0px;
+}
+.ty-product-block__left .product-list-field.ty-control-group .ty-control-group__label{
+	width: 150px;
+}
+#product-main-info-table{
+	width: 100%;
+}
+#product-main-info-table td{
+	padding: 0;
+	vertical-align: top;
+}
+#product-main-info-table .product_main_info_label_cell{
+	width: 150px;
+}
+.product-price-calculation{
+	margin-top: 20px;
+}
+.product-price-calculation h2{
+	margin-bottom: 22px;
+}
+.product-price-calculation .product-price-calculation-input-fields .row{
+	margin-bottom: 16px;
+}
+.product-price-calculation .product-price-calculation-input-fields .row > span{
+	min-height: 30px;
+}
+.product-price-calculation .product-price-calculation-input-fields label{
+	position: relative;
+	top: 5px;
+}
+.product-price-calculation .product-price-calculation-input-fields input, .product-price-calculation .product-price-calculation-input-fields select{
+	width: 100%;
+}
+.product-price-calculation .product-invoice-size-option-division-container{
+	border: 1px solid #d9d9d9;
+}
+.product-price-calculation #product-invoice-size-option-division-table{
+	width: 100%;
+}
+.product-price-calculation #product-invoice-size-option-division-table thead tr{
+	background-color: #eee;
+}
+.product-price-calculation #product-invoice-size-option-division-table th{
+	text-align: center;
+	height: 27px;
+}
+.product-price-calculation #product-invoice-size-option-division-table th:first-child, .product-price-calculation #product-invoice-size-option-division-table tbody tr td:first-child, .product-price-calculation #product-invoice-size-option-division-table tfoot tr td:first-child{
+	text-align: right;
+}
+
+.product-price-calculation #product-invoice-size-option-division-table th:last-child{
+	padding-left: 15px;
+}
+.product-price-calculation #product-invoice-size-option-division-table td{
+	text-align: center;
+}
+.product-price-calculation #product-invoice-size-option-division-table td input{
+	height: 25px;
+	width: 50px;
+	margin: 3px 5px 3px 5px;
+}
+.product-price-calculation #product-invoice-size-option-division-table tfoot{
+	border-top: 1px solid #d9d9d9;
+}
+.product-price-calculation #product-invoice-size-option-division-table tfoot tr td:first-child{
+	font-weight: bold;
+}
+.product-price-calculation #product-invoice-size-option-division-table tfoot tr td{
+	text-align: left;
+	height: 30px;
+}
+.product-price-calculation #product-invoice-size-option-division-table tfoot #product_invoice_size_total_divided{
+	padding-left: 16px;
+}
+.product-price-calculation #product-invoice-size-option-division-table tfoot #product_invoice_size_total_to_divide{
+
+}
+.product-price-calculation #product-invoice-size-option-division-table #product_invoice_size_division_corresponding_text{
+	visibility: hidden;
+	font-size: 11px;
+}
+#product-invoice-size-division-notification{
+	display: none;
+	padding: 20px;
+}
+.product-price-calculation .product-price-calculation-input-fields{
+}
+
+#product-invoice-quantity-notification{
+	padding: 20px;
+	min-height: 30px !important;
+}
+.product-price-calculation #product-invoice-quantity-notification{
+	padding: 0px;
+	display: none;
+}
+.product-price-calculation .product-price-calculations-separator{
+	height: 1px;
+	background-color: #dedede;
+	margin-bottom: 15px;
+}
+.product-price-calculation .product-invoices-expandable-information-container{
+	display: none;
+	margin-top: 5px;
+}
+.product-price-calculation .product-invoice-printed-radio-button-container{
+	display: block;
+	height: 27px;
+	width: 100%;
+}
+.product-price-calculation .product-invoice-printed-radio-button-container input{
+	width: 20px;
+	float: left;
+	position: relative;
+	top: 9px;
+	margin-top: 0px;
+}
+.product-price-calculation .product-invoice-printed-radio-button-container label{
+	width: 25px;
+	margin-right: 5px;
+	float: left;
+	display: block;
+	top: 5px;
+}
+.product-price-calculation .product-invoice-print-rows{
+	display: none;
+}
+.product-price-calculation .product-invoice-print-file-row .ty-fileuploader{
+	margin-bottom: 30px;
+}
+.product-price-calculation .product-invoice-print-file-row .ty-fileuploader .upload-file-local{
+	overflow: visible;
+}
+.product-price-calculation .product-invoice-print-file-row .ty-fileuploader .upload-file-local > input[type="file"]{
+	opacity: 1;
+	height: 30px;
+}
+.product-price-calculation .product-invoice-print-file-row .ty-fileuploader .upload-file-local > a.ty-fileuploader__a{
+	display: none !important;
+}
+.product-price-calculation .product-invoice-print-file-row .upload-file-local > a.ty-fileuploader__a:hover{
+	background-color: green;
+}
+.product-price-calculation .product-invoice-print-file-row .upload-file-local > a.ty-fileuploader__a{
+	text-decoration: none;
+}
+#product-price-calculation-form .product-price-calculations-additional-buttons a{
+	color: #333;
+	font-size: 20px;
+	margin-right: 10px;
+}
+#product-price-calculation-form .product-price-calculations-additional-buttons a:hover{
+	text-decoration: none;
+}
+#product-price-calculation-form .product-price-calculations-additional-buttons a:hover i{
+	color: #d80d04;
+}
+.ty-cart-content .ty-cart-content__price .cm-tooltip .fa, .ty-checkout-summary .ty-checkout-summary__item .cm-tooltip .fa{
+	color: #000;
+}
+.ty-cart-content .quantity-cell, .ty-cart-content .ty-cart-content__qty{
+	text-align: right;
+}
+.ty-product-block__img-wrapper .owl-carousel{
+	display: block;
+}
+#product-notification-message{
+	margin-top: 20px;
+	padding: 10px 10px 10px 25px;
+	background-color: #eee;
+	position: relative;
+}
+#product-notification-message i{
+	position: absolute;
+	top: 11px;
+	left: 8px;
+	color: #d80d04;
+}
+#product-custom-made-by-request-invoice-btn{
+	margin-top: 25px;
+}
+#product-custom-made-by-request-invoice-btn i{
+	top: 1px;
+	left: 9px;
+}
+#product-quantity-pricing-table{
+	border: 1px solid #ccc;
+	width: 574px !important;
+}
+#product-quantity-pricing-table thead tr{
+	background-color: #eee;
+}
+#product-quantity-pricing-table th{
+	height: 25px;
+	vertical-align: middle;
+}
+#product-quantity-pricing-table td{
+	height: 25px;
+	vertical-align: middle;
+}
+#product-quantity-pricing-table .product-quantity-pricing-table-print-type-cell{
+	padding-left: 8px;
+}
+#product-quantity-pricing-table th, #product-quantity-pricing-table td{
+	padding: 0px;
+}
+#product-quantity-pricing-table .more_than_two_colors_row{
+	display: none;
+}
+#product-quantity-pricing-table .more_than_two_colors_row.expanded{
+	display: table-row;
+}
+#product-quantity-pricing-table .product-quantity-pricing-table-price-cell{
+	cursor: default;
+}
+#product-quantity-pricing-table .product-quantity-pricing-table-price-cell.is-clickable{
+	cursor: pointer;
+}
+#product-quantity-pricing-table .product-quantity-pricing-table-price-cell.is-clickable:hover{
+	background-color: #ccc;
+}
+/*#product-quantity-pricing-table .product-quantity-pricing-table-price-cell:hover, #product-quantity-pricing-table th.hover, #product-quantity-pricing-table td.hover{
+	background-color: #eee;
+}*/
+.ty-product-block__wrapper .print-types-table-expander-collapser-button{
+	float: right;
+	clear:both;
+	font-size: 20px;
+	color: #000;
+	width: 10px;
+	margin-right: 5px;
+}
+.ty-product-block__wrapper .print-types-table-expander-collapser-button:hover{
+	text-decoration: none;
+}
+#mm_print_codes_product_invoice{
+
+}
+#mm_print_codes_product_invoice .fa{
+	color: #333;
+}
+#mm_print_codes_product_invoice th, #mm_print_codes_product_invoice td{
+	height: 30px;
+	width: 25%;
+}
+#mm_print_codes_product_invoice tr.product-invoice-divider-row td{
+	height: auto;
+}
+#mm_print_codes_product_invoice tr.product-invoice-totals-row td{
+	font-weight: bold;
+}
+#mm_print_codes_product_invoice.minimal-invoice tr.product-invoice-totals-row td{
+	font-weight: normal;
+}
+#mm_print_codes_product_invoice.minimal-invoice tr.product-invoice-totals-row.minimal-invoice-totals-row td{
+	font-weight: bold;
+}
+#mm_print_codes_product_invoice td > .price_part{
+	float: left;
+}
+#mm_print_codes_product_invoice td > .price_part:nth-child(2){
+	min-width: 60px;
+	text-align: right;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#product-invoice-email-invoice-popup{
+	display: none;
+	max-width: 450px;
+	max-height: 270px;
+}
+#product-invoice-email-invoice-popup .product-invoice-email-invoice-popup-text-above{
+
+}
+#product-invoice-email-invoice-popup #product-invoice-email-send-invoice-input{
+	width: 294px;
+	float: left;
+}
+#product-invoice-email-invoice-popup #product-invoice-email-send-invoice-button{
+	width: 80px;
+	padding: 6px 18px 4px 10px;
+	position: relative;
+	float: left;
+	height: 20px;
+	margin-left: 5px;
+	margin-right: 0px;
+	font-size: 13px;
+	color: #fff;
+}
+#product-invoice-email-invoice-popup #product-invoice-email-send-invoice-button i{
+	position: absolute;
+	top: 11px;
+	right: 0px;
+}
+#product-invoice-email-invoice-popup #product-invoice-email-send-invoice-button:hover i{
+	color: #fff;
+}
+#product-invoice-email-invoice-popup .product-invoice-email-invoice-popup-text-below{
+	clear: both;
+	padding: 15px 0px;
+}
+/* Table */
+#product-price-calculation-form .product-invoices-expandable-information-container{
+	width: 575px;
+	float:right;
+	clear:both;
+	margin: 35px 0px;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container table{
+	width: 100%;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container .product-invoice-shipping-costs.free-shipping{
+	color: green;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container .product-price-calculations-order-buttons{
+	text-align: right;
+	padding-right: 17px;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container .product-price-calculations-order-buttons #button_add_to_cart{
+	text-transform: none;
+	border-radius: 7px;
+	padding-right: 7px;
+	min-width: 110px;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container .product-price-calculations-order-buttons #button_add_to_cart:hover{
+	background-color: green;
+}
+#product-price-calculation-form .product-invoices-expandable-information-container .product-price-calculations-order-buttons #button_add_to_cart .fa{
+	color: #fff;
+	top: 0;
+	float: right;
+	margin-left: 9px;
+	margin-top: 5px;
+}
+#product-price-calculation-form .product-invoice-quantity-row #product-invoice-quantity option:last-child{
+	color: green;
+}
+.container .red-border{
+	border: 1px solid red;
+}
+.container .orange-border{
+	border: 1px solid orange;
+}
+.red-text-value{
+	color: red;
+}
+#mm_print_codes_additional_product_info_edit_product{
+	position: absolute;
+	top: 13px;
+	left: 525px;
+	z-index: 1000;
+	font-size: 13px;
+}
+#mm_print_codes_additional_product_info{
+	position: absolute;
+	top: 13px;
+	left: 745px;
+	z-index: 1000;
+	font-size: 13px;
+}
+#mm_print_codes_additional_product_info:hover{
+	text-decoration: none;
+}
+#mm_print_codes_additional_product_info .mm_print_codes_additional_product_info_table_container{
+	display: none;
+	padding: 15px;
+	background-color: #fff;
+	border: 2px solid #d80d04;
+	width: 375px;
+	min-height: 170px;
+}
+#mm_print_codes_additional_product_info .mm_print_codes_additional_product_info_table_container table{
+	width: 100%;
+}
+.mm-print-codes-shipping-estimation-box{
+
+}
+.mm-print-codes-shipping-estimation-buttons{
+
+}

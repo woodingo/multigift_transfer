@@ -1,0 +1,2 @@
+{style src="addons/mm_functions/styles.css"}
+{if $runtime.company_id == 37}{style src="addons/mm_functions/maxitrading.css"}{elseif $runtime.company_id == 38}{style src="addons/mm_functions/multigiftnl.css"}{/if}

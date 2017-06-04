@@ -1,0 +1,1 @@
+{script src="js/addons/mm_functions/extended.fancybox.previewer.js"}

@@ -1,0 +1,1 @@
+{if !empty($smarty.request.dispatch) && $smarty.request.dispatch == "index.index"}<link rel="alternate" type="application/rss+xml" title="RSS" href="{"mm_featured_reviews.rss_feed"|fn_url}" />{/if}

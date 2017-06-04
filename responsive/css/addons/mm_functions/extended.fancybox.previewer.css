@@ -1,0 +1,106 @@
+#fancybox-content{
+	overflow: visible !important;
+	width: 100% !important;
+	background: white;
+	text-align: center;
+	border-width: 0px !important;
+	height: auto !important;
+}
+
+#fancybox-content .ty-product-thumbnails{
+	text-align: center;
+	width: auto !important;
+	padding-top: 50px;
+	margin: 0;
+}
+#fancybox-content .ty-product-thumbnails > a{
+	display: inline-block;
+	float: none;
+}
+#fancybox-img{
+	width: auto;
+	height: auto !important;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+#fancybox-title.fancybox-title-over{
+	margin-left: 0px !important;
+	width: 100% !important;
+}
+#fancybox-left, #fancybox-right{
+	max-width: 125px;
+	display: none !important;
+}
+#extended-data-container{
+	text-align: center;
+	margin: 15px;
+}
+#extended-data-container .extended-data-product-name, #extended-data-container .extended-data-product-stock-message, #extended-data-container .extended-data-product-incoming-stock-message{
+	margin-bottom: 8px;
+}
+#extended-data-container .extended-data-product-name{
+	font-size: 15px;
+}
+#extended-data-container .extended-data-product-stock-message{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#extended-data-container .extended-data-product-incoming-stock-message{
+	font-style: italic;
+	font-size: 11px;
+}
+#fancybox-wrap{
+	height: auto !important;
+	max-height: 100%;
+}
+#fancybox-outer {
+	width: auto;
+	min-width: 400px;
+	padding: 120px 120px 20px 120px;
+	border: 2px solid #D80D04
+}
+
+@media (max-width: 979px) {
+	#fancybox-img{
+		margin-top: 25px;
+	}
+}
+
+/* ==========================================================================
+Responsive: Tablet to desktop
+========================================================================== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#fancybox-outer {
+		min-width: auto;
+	}
+	#fancybox-content .ty-product-thumbnails{
+		display: none;
+	}
+}
+
+/* ==========================================================================
+Responsive: Landscape phone to desktop/tablet
+========================================================================== */
+
+@media (max-width: 767px) {
+	#fancybox-wrap{
+		padding: 0;
+	}
+	#fancybox-outer {
+		min-width: 190px;
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+}
+
+/* ==========================================================================
+Responsive: Phone
+========================================================================== */
+
+@media (max-width: 480px) {
+	#fancybox-content .ty-product-thumbnails{
+		display: none;
+	}
+}

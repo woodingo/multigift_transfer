@@ -1,0 +1,6 @@
+#tygh_main_container .side-grid{
+	float: left;
+}
+#tygh_main_container .main-content-grid{
+	float: right;
+}

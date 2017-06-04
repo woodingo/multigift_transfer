@@ -1,0 +1,9 @@
+{
+ "default": {
+ "host": "alex.dev.alt-team.com",
+ "username": "alex",
+ "password": "Dfhf63<fyrj",
+ "path": "/public_html/multigift/design/themes",
+ "upload_on_save": true
+ }
+}

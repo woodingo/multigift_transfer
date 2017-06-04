@@ -1,0 +1,1 @@
+{style src="addons/mm_featured_reviews/styles.css"}

@@ -1,0 +1,10 @@
+.mm_ajax_block .mm_ajax_block_spinner{
+	margin: 0 auto;
+}
+.tygh-top-panel .mm_ajax_block_spinner{
+	width: 50%;
+	margin-top: 9px;
+}
+.tygh-footer .mm_ajax_block_spinner{
+	margin-top: 6px;
+}

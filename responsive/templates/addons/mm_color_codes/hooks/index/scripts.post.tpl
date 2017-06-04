@@ -1,0 +1,1 @@
+{script src="js/addons/mm_color_codes/func.js"}
