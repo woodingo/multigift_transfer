@@ -1658,7 +1658,7 @@ Smarty blocks
 
   .top-cart-content {
 
-      width: 100%;
+      // width: 100%;
 
       margin: 0px 0px;
       margin-top: 15px;
@@ -2328,6 +2328,91 @@ input[type="text"], input[type="password"], textarea, select {
 
 .ty-menu__item .ty-menu__item-link {
   text-transform: none;
+}
+
+body, p, div, li {
+  font-size: 13px;
+}
+
+@media (min-width: 1224px) {
+  .ty-footer-grid__full-width > .row {
+    width: auto;
+
+    & > {
+      .span16 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        padding: 0 50px;
+
+        & > {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.footer-stay-connected {
+  min-height: initial !important;
+}
+
+.tygh-footer > div {
+  background: none;
+}
+
+.ty-footer-menu > .row {
+  padding-top: 50px;
+}
+
+.wj-footer-menu {
+  // padding-top: 50px;
+}
+
+a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+    color: #d80d04;
+    cursor: pointer;
+    -webkit-transition: all 150ms;
+    -moz-transition: all 150ms;
+    -o-transition: all 150ms;
+    transition: all 150ms;
+}
+
+.ty-grid-list__item .product_colors, 
+.ty-grid-list__item .product_stock, 
+.ty-grid-list__item .product_custom_made {
+    display: block;
+    width: 90%;
+    text-align: center;
+    float: left;
+    clear: both;
+    height: 30px;
+    margin: 0 5%;
+}
+
+.banners {
+  margin-bottom: 25px;
+}
+
+.owl-carousel.owl-theme .owl-controls {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .ty-footer-menu__icon-open, .ty-footer-menu__icon-hide {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 32px;
+    color: #bfbfbf;
+    cursor: pointer;
+  }
 }
 
 // <----- Woody Just after transfer Hooks
