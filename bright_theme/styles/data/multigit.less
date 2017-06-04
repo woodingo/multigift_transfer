@@ -123,12 +123,17 @@ h2.ty-mainbox-title {
 }
 
 .ty-search-magnifier {
-  background: @primary_button;
-  color: white;
-  top: 0;
-  height: 100%;
-  right: 0;
-  width: @main_search_input_size;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0;
+  width: 20px;
+  height: 26px;
+  border: none;
+  background: none;
+  color: #d9d9d9;
+  font-size: 145%;
+  cursor: pointer;
 }
 
 input.ty-search-block__input {
@@ -820,7 +825,8 @@ h3.ty-social-link__title{
 
 .ty-btn {
   padding: 6px 7px;
-  text-transform: uppercase;
+  font-size: 14px;
+  /*text-transform: uppercase;*/
 
   &.ty-btn__text {
     padding: 0;
@@ -1057,7 +1063,7 @@ h3.ty-social-link__title{
 @links: #465f73;
 @menu_links: #ffffff;
 @menu: #26323e;
-@base: #dce3ea;
+@base: lighten(#bfbfbf, 30%);
 @font: #2e3a47;
 @primary_button: #ff5319;
 @secondary_button: #4fbe31;
@@ -1077,7 +1083,7 @@ h3.ty-social-link__title{
 @general_bg_repeat: repeat;
 @general_bg_scroll: scroll;
 
-@top_panel_bg: #e6eff4;
+@top_panel_bg: white;
 @top_panel_bg_full: true;
 @top_panel_bg_transparent: false;
 @top_panel_bg_grad_stop: #e6eff4;
@@ -2210,3 +2216,118 @@ Banners
 }
 
 /*/GFONTS*/
+
+
+// Woody Just after transfer Hooks ----->
+
+.tygh-header .ty-menu__items {
+  background: @menu;
+}
+
+.ty-stars__icon {
+  vertical-align: middle;
+  margin-left: 2px !important;
+  font-size: 14px !important;
+}
+
+.ty-stars {
+  font-size: 13px;
+}
+
+.ty-select-block__arrow,
+.ty-dropdown-box .ty-icon-down-micro {
+  margin-left: 3px;
+  font-size: 140%;
+  vertical-align: middle;
+}
+
+.tygh-top-panel .ty-select-block__a {
+  padding: 8px 13px 2px;
+  border: none;
+  height: 32px;
+}
+
+.top-my-account {
+  margin-left: 0;
+}
+
+.tygh-top-panel .ty-dropdown-box__title {
+  border: none;
+  padding: 8px 6px 8px;
+}
+
+.top-cart-content {
+  margin: 0;
+
+  .ty-icon-down-micro {
+    padding-left: 0;
+
+    &:before {
+      content: "\e01d";
+      font-size: 1em;
+    }
+  }
+
+  .ty-dropdown-box__title {
+    padding-right: 0;
+
+    &:hover {
+      background: #f6f6f6;
+    }
+  }
+}
+
+.ty-dropdown-box__title:hover {
+  background: #f6f6f6;
+}
+
+.ty-select-block__a.open,
+.ty-select-block__a.open:hover {
+  background: #a8a8a8;
+}
+
+.ty-dropdown-box__title.open,
+.ty-dropdown-box__title.open:hover {
+  background: #a8a8a8;
+  color: white;
+}
+
+.top-cart-content .ty-dropdown-box__title.open,
+.top-cart-content .ty-dropdown-box__title.open:hover {
+  background: #a8a8a8;
+  color: white;
+
+  * {
+    color: inherit;
+  }
+}
+
+.top-cart-content .ty-dropdown-box__title.open .ty-minicart-title {
+  color: white;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+  font-size: 13px;
+}
+
+.tygh-top-panel input[type="text"], .tygh-top-panel input[type="password"], .tygh-top-panel textarea, .tygh-top-panel select {
+  font-size: 13px;
+}
+
+.cm-hint {
+  color: #737373
+}
+
+.top-logo {
+  margin-top: 0;
+}
+
+.top-search {
+  margin-top: 0;
+}
+
+.ty-menu__item .ty-menu__item-link {
+  text-transform: none;
+}
+
+// <----- Woody Just after transfer Hooks
