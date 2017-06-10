@@ -236,8 +236,11 @@ Responsive: Tablet to desktop
 
 /* Footer
    ========================================================================== */
+    .ty-footer-grid__full-width {
+        margin-left: 0;
+    }
     .ty-footer-grid__full-width > .row {
-        width: 736px;
+        // width: 736px;
         margin: 0 auto;
     }
     .ty-social-link__title {
@@ -318,7 +321,7 @@ Responsive: Tablet to desktop
         border: 0;
     }
 
-    .ty-menu__item,
+    .ty-menu__item:not(.visible-phone),
     .ty-text-links_show_inline {
         display: block !important;
     }
